@@ -4,6 +4,7 @@ backend:
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    extension: html
     label: "Blog" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -16,3 +17,5 @@ collections:
       - {label: "Blurb", name: "blurb", widget: "string"} # the blurb that begins/summarizes the post
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+site_url: https://theartlessart.com
+display_url: https://theartlessart.com
