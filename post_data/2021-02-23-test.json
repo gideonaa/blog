@@ -6,6 +6,6 @@
     "test"
   ],
   "blurb": "test",
-  "body": "1. testing this check out **this bold:**\n\nAnd a [link](https://www.google.com) and a `piece of code`\n\n> `wow this is col code`\n\n# `Header!`\n\n```\ncheck out this code block!\n```\n\n![living room](/public/images/uploads/img_1668.jpg \"Living Room\")",
+  "body": "1. testing this check out **this bold:**\n\nAnd a [link](https://www.google.com) and a `piece of code`\n\n> `wow this is col code`\n\n# `Header!`\n\n```\ncheck out this code block!\n```\n\n![living room](https://media.ed.edmunds-media.com/subaru/crosstrek/2020/oem/2020_subaru_crosstrek_4dr-suv_hybrid_fq_oem_1_815.jpg \"Living Room\")",
   "thumbnail": "https://d33wubrfki0l68.cloudfront.net/1f4ce04369d08e4f8c3a7ca30a11c4873fda2ae1/3cf4e/static/netlify-cms-logo-5a5d3304b7d2d77ea281363a71dcc970.svg"
 }
