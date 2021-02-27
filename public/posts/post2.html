@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/">
+      </a>
+      <ul>
+        <li>Index</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Test</h1>
+  <<ol>
+<li>testing this check out <strong>this bold:</strong></li>
+</ol>
+<p>And a <a href="https://www.google.com">link</a> and a <code>piece of code</code></p>
+<blockquote>
+<p><code>wow this is col code</code></p>
+</blockquote>
+<h1><code>Header!</code></h1>
+<pre><code>check out this code block!
+</code></pre>
+<p><img src="/images/uploads/img_1668.jpg" alt="living room" title="Living Room" /></p>
+></<ol>
+<li>testing this check out <strong>this bold:</strong></li>
+</ol>
+<p>And a <a href="https://www.google.com">link</a> and a <code>piece of code</code></p>
+<blockquote>
+<p><code>wow this is col code</code></p>
+</blockquote>
+<h1><code>Header!</code></h1>
+<pre><code>check out this code block!
+</code></pre>
+<p><img src="/images/uploads/img_1668.jpg" alt="living room" title="Living Room" /></p>
+></main>
+  <script><!--Redirects user to admin -->
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
